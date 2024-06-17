@@ -6,68 +6,68 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Você Recicla" ,
+        enunciado: "Você Recicla?" ,
         alternativas: [
             {
-                texto: "Muito bem,voce está ajudando o mundo e a si mesmo",
-                afirmacao: "sim"
+                texto: "Sim, separo os lixos nos seus devidos lugares",
+                afirmacao: "Muito bem,voce está ajudando o mundo e a si mesmo"
             },
             {
-                texto: "Então tome sua atitude, se cada um fizer a sua parte, vamos construir um mundo melhor.",
-                afirmacao: "Não"
+                texto: "Não tenho esse custume.",
+                afirmacao: "Não, então tome sua atitude, se cada um fizer a sua parte, vamos construir um mundo melhor."
             }
         ]
     },
     {
-        enunciado: "Além da reciclagem, a poluição nas águas é algo muito presente nos dias de hoje e acaba tirando a vida de muitos peixes e outros animais marinhos. Voce faz a sua parte e não joga óleo nas águas?",
+        enunciado: "Além da reciclagem, a poluição nas águas é algo mque é muito preocupante e acaba tirando a vida de muitos peixes e outros animais marinhos. Voce faz a sua parte e não joga óleo nas águas?",
         alternativas: [
             {
-                texto: "Sim, coleto o óleo usado e jogo nos pontos de coleta, ou utilizo o mesmo para produção de sabões e assim contribuo com o meio ambiente.",
-                afirmacao: ".Sim"
+                texto: "Sim, Faço a coleta certa",
+                afirmacao: "Sim, coleto o óleo usado e jogo nos pontos de coleta e assim contribuo com o meio ambiente"
             }
             {
-                texto: " Poxa! Pois trate de começar, voce ja pensou o quanto mal o óleo que voce joga na pia está fazendo e pode estar tirando a vida de quantos animais e prejudicando a água que voce mesmo toma?",
-                afirmacao: "Nao"
+                texto: "Não, não quero começar",
+                afirmacao: "Poxa! Pois comece o mais cedo possivel, o óleo que voce joga na pia está fazendo e pode estar tirando a vida de quantos animais marinhos"
             }
         
         ]
     },
     {
-        enunciado: "Além do óléo usado, o descarte incorreto de pilhas e baterias no meio ambiente , prejudica muito o ambiente, pois tem em sua composição metais como chumbo e zinco, e descartado corretamente, em contato com a água, pode contaminar diversos litros de água , e se digerido da mesma, causar diversos problemas de saúde. Voce faz o descarte correto?",
+        enunciado: "O descarte incorreto de pilhas e baterias no meio ambiente , prejudica muito o ambiente, e descartado corretamente, em contato com a água, pode contaminar diversos litros de água , e se digerido da mesma, causar diversos problemas de saúde. Voce faz o descarte correto?",
         alternativas: [
             {
-                texto: "eu penso na sáude do próximo e na minha, e faço o descarte correto",
-                afirmacao: ".Sim"
+                texto: "Sim, tenho impatia e contribuo",
+                afirmacao: "Eu penso na sáude do meio ambiente, e faço o descarte correto"
             },
             {
-                texto: "",
-                afirmacao: "...."
+                texto: "Não tenho atitude",
+                afirmacao: "Não, mas vou começar a fazer o descarte corretamente"
             }
         ]
     },
     {
-        enunciado: "",
+        enunciado: "A poluição vem piorando a cada dia que passa, voce faz sua parte?",
         alternativas: [
             {
-                texto: "",
-                afirmacao: "..."
+                texto: "Sim, eu ajudo com o meio ambiente",
+                afirmacao: "Eu contribuo com meus lixos e descarto corretamente"
             },
             {
-                texto: "....,",
-                afirmacao: "..."
+                texto: "Não, não vejo o porque de ajudar",
+                afirmacao: "Eu ainda não faço minha parte e não vou fazer"
             }
         ]
     },
     {
-        enunciado: " ..... ",
+        enunciado: " O desmatamento sempre piora, as leis não funcionam direito, a pergunta é, voce ajuda? ",
         alternativas: [
             {
-                texto: "....",
-                afirmacao: "....."
+                texto: "Sim, ajudo com as plantinhas",
+                afirmacao: "Sim, sempre planto arvores e plantas novas"
             },
             {
-                texto: "....",
-                afirmacao: "....."
+                texto: "Não, tenho preguiça de começar",
+                afirmacao: "Não, acho que não tenho essa capacidade"
             }
         ]
     },
