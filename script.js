@@ -24,7 +24,7 @@ const perguntas = [
             {
                 texto: "Sim, Faço a coleta certa",
                 afirmacao: "Sim, coleto o óleo usado e jogo nos pontos de coleta e assim contribuo com o meio ambiente"
-            }
+            },
             {
                 texto: "Não, não quero começar",
                 afirmacao: "Poxa! Pois comece o mais cedo possivel, o óleo que voce joga na pia está fazendo e pode estar tirando a vida de quantos animais marinhos"
